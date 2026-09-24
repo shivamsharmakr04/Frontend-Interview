@@ -72,6 +72,22 @@ Open the Vite URL shown in the terminal.
 
 The project uses TanStack Query for fetching and cache management. Keep API access isolated from presentation components and handle loading/error states at the UI boundary.
 
+## 🧪 Recommended Development Checks
+
+Before pushing changes, run the project's available checks locally:
+
+```bash
+npm run build
+```
+
+If the repository includes a lint script, run:
+
+```bash
+npm run lint
+```
+
+For API-related changes, also verify that JSON Server starts successfully with `npm run server` and that the frontend can load the blog list.
+
 ## 📌 Portfolio Note
 
 This repository contains my completed implementation of the interview assignment; the README intentionally documents the implementation rather than reproducing the original hiring instructions.
